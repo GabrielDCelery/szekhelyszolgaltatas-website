@@ -19,7 +19,7 @@
 }
 
 .main-header .showcase {
-  padding-top: 110px;
+  padding-top: 10vh;
 }
 
 .scroll-icon {
@@ -27,4 +27,26 @@
   bottom: 5%;
   left: 47%;
   opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin: 0 !important;
+}
+
+.section-boxes {
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 100vh;
+  }
 }
